@@ -1,0 +1,26 @@
+{
+    "name": "Java Development Environment",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/work/app",
+    "features": {
+        "git": {
+            "version": "latest"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "/bin/bash"
+            },
+            "extensions": [
+                // Java
+                "vscjava.vscode-java-pack",
+                // Git
+                "donjayamanne.githistory",
+                "mhutchie.git-graph",
+                "eamodio.gitlens"
+            ]
+        }
+    }
+}
