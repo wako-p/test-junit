@@ -15,6 +15,8 @@
             "extensions": [
                 // Java
                 "vscjava.vscode-java-pack",
+                // Gradle
+                "richardwillis.vscode-gradle-extension-pack",
                 // Git
                 "donjayamanne.githistory",
                 "mhutchie.git-graph",
