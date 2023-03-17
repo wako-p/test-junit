@@ -9,7 +9,8 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "terminal.integrated.defaultProfile.linux": "bash"
+                "terminal.integrated.defaultProfile.linux": "bash",
+                "java.compile.nullAnalysis.mode": "automatic"
             },
             "extensions": [
                 // Java
