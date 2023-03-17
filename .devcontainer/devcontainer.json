@@ -2,7 +2,7 @@
     "name": "Java Development Environment",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "app",
-    "workspaceFolder": "/home/app",
+    "workspaceFolder": "/home/work",
     "features": {
         "ghcr.io/devcontainers/features/git:1": {}
     },
